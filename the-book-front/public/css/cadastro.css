@@ -1,0 +1,130 @@
+@font-face {
+    font-family: titulo;
+    src: url(../font/Mercy\ Christole.ttf);
+}
+
+body{
+    background-image: url(../img/library.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label{
+    font-size: 20px;
+
+}
+
+.container {
+    display: flex;
+    gap: 5rem;
+    border-radius: 13px;
+}
+
+.nada{
+    position: relative;
+    left: -12px;
+    background-color: #f0daae15;
+    border-radius: 13px;
+}
+
+.livro{
+    position: absolute;
+    left: 33px;
+    top: 160px;
+}
+
+.logo{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: -620px;
+}
+
+h1{
+    font-family: titulo;
+    position: absolute;
+    top: 90px;
+    left: 106px;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 1px 3px 0px #275237 ;
+}
+
+h2{
+   position: absolute;
+   top: 180px;
+   left: 202px;
+   text-shadow: 1px 3px 0px #275237 ;
+}
+
+.form{
+    position: relative;
+    left: 620px;
+    top: -503px;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 
+    -1px -1px 0px #27312B, 
+    -1px 1px 0px #27312B,                    
+    1px -1px 0px #27312B,                  
+    1px 0px 0px #27312B;
+}
+
+button{
+    position: absolute;
+    bottom: -443px;
+    left: 50px;
+    height: 40px;
+    width:150px;
+    background-color: #275237;
+    border-radius: 30px;
+    border: black;
+    color: rgb(235, 235, 235);
+}
+
+button id{
+    position: relative;
+    top: -1px; 
+    font-size: 24px;
+    font-family: titulo;
+    text-shadow:0px 0px 2px white;
+}
+
+input{
+    color: white;
+    border-radius: 9px;
+    height: 46px;
+    width: 100%;
+    background-color: rgba(53, 10, 10, 0.093) ;
+}
+
+button:hover{
+    border: white;
+    color: white;
+    text-shadow: white;
+    box-shadow: 0px 0px 5px white;
+}
+
+input:hover{
+    border: #275237 ;
+    box-shadow: 0px 0px 5px #275237  ;
+}
+
+#login {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 28px;
+}
+
+#login:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(146, 146, 236);
+}
